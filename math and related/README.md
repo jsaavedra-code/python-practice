@@ -38,5 +38,5 @@ for i in range(1, n + 1):
 
 print(result)
 
-Author
-John Saavedra Castrillo
+Author: John Saavedra
+Computer Science Student
