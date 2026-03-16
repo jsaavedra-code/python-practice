@@ -2,4 +2,5 @@
 
 My first Python project.
 
-Author: jsaavedra-dev
+Author: John Saavedra 
+Computer Science Student
