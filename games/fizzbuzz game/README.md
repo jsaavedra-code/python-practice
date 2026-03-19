@@ -1,32 +1,28 @@
-# 🎮 FizzBuzz Game (Python)
+# 🎮 FizzBuzz Game (Python) — Custom Twist
 
 Welcome to my FizzBuzz project!
-This program demonstrates a variation of the classic FizzBuzz problem using **Python functions and loops**.
+This is a modified version of the classic FizzBuzz problem with an additional rule to make it more interesting.
 
 ---
 
 ## 🚀 Overview
 
-This project includes two features:
+This program:
 
-1. **Single Number Evaluation**
-
-   * Takes a number as input
-   * Prints the FizzBuzz result for that specific number
-
-2. **Full Sequence Generator**
-
-   * Prints the FizzBuzz results from **1 up to the input number**
+* Takes a number as input
+* Prints the FizzBuzz results from **1 up to that number**
+* Applies a custom rule involving the digit **3**
 
 ---
 
-## 🧠 Logic
+## 🧠 Rules
 
-The program uses the following rules:
+For each number:
 
-* If a number is divisible by **3 and 7** → `"FizzBuzz"`
+* If divisible by **3 and 7** → `"FizzBuzz"`
 * If divisible by **7** → `"Buzz"`
 * If divisible by **3** → `"Fizz"`
+* If the number **contains the digit 3** → `"Almost Fizz"`
 * Otherwise → the number itself
 
 ---
@@ -40,31 +36,34 @@ def fizzbuzz(n):
 This function:
 
 * Receives an integer `n`
-* Applies conditional logic
-* Returns the appropriate result as a string
+* Applies the rules in order
+* Returns the corresponding result as a string
 
 ---
 
 ## ▶️ How to Run
 
-1. Make sure Python is installed
+1. Make sure you have Python installed
 2. Run the file:
 
 ```bash
 python fizzbuzz.py
 ```
 
-3. Enter a number when prompted
+3. Enter a number when prompted:
+
+```
+Please enter a number:
+```
 
 ---
 
 ## 💡 Example
 
 ```
-Input: 10
+Input: 15
 
 Output:
-10
 1
 2
 Fizz
@@ -75,39 +74,48 @@ Buzz
 8
 Fizz
 10
+11
+Fizz
+Almost Fizz
+Buzz
+Fizz
 ```
 
 ---
 
 ## 🛠️ Features
 
-* Uses a reusable function (`fizzbuzz`)
-* Demonstrates conditionals (`if / elif / else`)
-* Uses loops (`for`)
-* Clean and simple structure
+* Function-based logic (reusable and clean)
+* Loop iteration from 1 to N
+* Custom condition using string conversion (`"3" in str(n)`)
+* Clear and beginner-friendly structure
 
 ---
 
-## 📌 Notes
+## ⚠️ Important Note
 
-* This is a modified version of FizzBuzz using **3 and 7 instead of 3 and 5**
-* The function is reused to avoid duplicating logic
+The order of conditions matters:
+
+* Divisibility checks are evaluated **before** the `"Almost Fizz"` rule
+* This ensures numbers like `3`, `6`, or `21` still return `"Fizz"` or `"FizzBuzz"` instead of `"Almost Fizz"`
 
 ---
 
 ## 👤 Author
 
-Juan Saavedra
+John Saavedra
+Computer Science Student
 GitHub: jsaavedra-code
 
 ---
 
 ## ⭐ Final Thoughts
 
-A simple but solid project to practice:
+A simple project with a creative twist.
+Demonstrates:
 
-* Functions
-* Loops
-* Code reusability
+* Logical thinking
+* Condition ordering
+* Reusable function design
 
-Small project, but a strong step toward writing cleaner and more structured code.
+Small project, but a clean step forward in Python development.
