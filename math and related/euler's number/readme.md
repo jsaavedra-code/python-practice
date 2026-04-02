@@ -9,7 +9,7 @@ A simple Python program that approximates **Euler’s number (e)** using its ser
 This project calculates an approximation of **e** using the formula:
 
 [
-e = \sum_{k=0}^{n} \frac{1}{k!}
+e = Σ (k=0 → n) 1 / k!
 ]
 
 Instead of recalculating factorials every time, the program uses an **incremental factorial approach**, making it more efficient and clean.
