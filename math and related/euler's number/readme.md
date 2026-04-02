@@ -55,7 +55,7 @@ This avoids recomputing factorials from scratch and improves performance.
 Run the program:
 
 ```
-python your_file_name.py
+python euler-number.py
 ```
 
 Enter a non-negative integer when prompted:
