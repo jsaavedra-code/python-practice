@@ -1,0 +1,23 @@
+# Welcome to my FizzBuzz game :)
+# I hope you enjoy this project
+
+print("Welcome to FizzBuzz!")
+
+def fizzbuzz(n):
+    if n % 3 == 0 and n % 7 == 0:
+        return "FizzBuzz"
+    elif n % 7 == 0:
+        return "Buzz"
+    elif n % 3 == 0:
+        return "Fizz"
+    elif "3" in str(n):
+        return "Almost Fizz"
+    else:
+        return str(n)
+    
+number = int(input("Please enter a number: "))
+
+# This will print the FizzBuzz result for all numbers from 1 to the input number
+
+for i in range (1, number + 1):
+    print(fizzbuzz(i))
