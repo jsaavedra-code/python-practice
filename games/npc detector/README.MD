@@ -84,7 +84,7 @@ most NPCs won’t notice how to game it.
 Make sure you have Python installed.
 
 ```bash
-python npc_detector.py
+python are-you-an-npc.py
 ```
 
 Then just answer the questions.
