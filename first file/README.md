@@ -2,5 +2,7 @@
 
 My first Python project.
 
-Author: John Saavedra 
-Github: jsaavedra-code
+## 👤 Author
+
+John Saavedra  
+GitHub: https://github.com/jsaavedra-code
