@@ -132,6 +132,11 @@ Built by someone who:
 * questions patterns
 * and got bored
 
+In case that did not convince you:
+
+John Saavedra  
+GitHub: https://github.com/jsaavedra-code
+
 ---
 
 ## ⭐ If you found it interesting
@@ -140,5 +145,3 @@ Give it a star or improve it.
 
 Or don’t.
 That would also be… very NPC-like.
-
-- John Saavedra
