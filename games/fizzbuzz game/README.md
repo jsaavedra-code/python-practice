@@ -100,12 +100,10 @@ The order of conditions matters:
 * This ensures numbers like `3`, `6`, or `21` still return `"Fizz"` or `"FizzBuzz"` instead of `"Almost Fizz"`
 
 ---
-
 ## 👤 Author
 
-- John Saavedra
-- GitHub: jsaavedra-code
-
+John Saavedra  
+GitHub: https://github.com/jsaavedra-code
 ---
 
 ## ⭐ Final Thoughts
