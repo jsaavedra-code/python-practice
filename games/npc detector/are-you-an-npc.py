@@ -7,7 +7,7 @@ print("Press Enter to start the test.")
 input()  # Wait for the user to press Enter
 score =0
 
-# The questions  1 to 5 will be answered with "yes" or "no". Please answer honestly for the most accurate result.
+# The questions 1 to 5 will be answered with "yes" or "no". Please answer honestly for the most accurate result.
 print("Please answer the following questions with 'yes' or 'no'.")
 
 # Question 1
