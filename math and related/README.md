@@ -61,11 +61,11 @@ Also because doing random small things is better than doing nothing.
 
 ## 👤 Author
 
-John Saavedra
+John Saavedra  
 GitHub: https://github.com/jsaavedra-code
 
 ---
-
+ 
 ## 🧠 Final note
 
 Some of these programs might be:
