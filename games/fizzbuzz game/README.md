@@ -103,9 +103,8 @@ The order of conditions matters:
 
 ## 👤 Author
 
-John Saavedra
-Computer Science Student
-GitHub: jsaavedra-code
+- John Saavedra
+- GitHub: jsaavedra-code
 
 ---
 
