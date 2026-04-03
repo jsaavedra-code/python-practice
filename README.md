@@ -28,5 +28,5 @@ Example:
 
 ## Author
 
-John Saavedra  
-Computer Science Student
+John Saavedra
+GitHub: https://github.com/jsaavedra-code
