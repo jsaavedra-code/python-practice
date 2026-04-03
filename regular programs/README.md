@@ -130,7 +130,7 @@ Possible future upgrades:
 
 ## Author
 
-John Saavedra
+John Saavedra  
 GitHub: https://github.com/jsaavedra-code
 
 ---
