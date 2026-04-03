@@ -1,7 +1,6 @@
 # Python Practice
 
 This repository contains small Python programs created while learning programming and practicing problem solving.
-
 The goal of this repository is to document my progress as I learn Python, programming logic, and basic computer science concepts.
 
 ## Topics Covered
@@ -11,14 +10,8 @@ The goal of this repository is to document my progress as I learn Python, progra
 - Loops and conditionals
 - User input and output
 - Problem solving exercises
+- Simple programs simulating apps or actual software
 
-## Current Programs
-
-### Factorial
-Calculates the factorial of a number using a loop.
-
-Example:
-5! = 120
 
 ## Technologies Used
 
@@ -28,5 +21,5 @@ Example:
 
 ## Author
 
-John Saavedra
+John Saavedra  
 GitHub: https://github.com/jsaavedra-code
