@@ -96,4 +96,32 @@ def list_all_contacts(contact_book):
             print(f"Address: {contact['address']}")
             print()
 
+# The program runs in a loop, displaying the menu and prompting the user for their choice.
+# Based on the user's input, the corresponding function is called to perform the desired action on the contact book.
+# The loop continues until the user chooses to exit the program by entering 6.
+contact_book = {}
+while True:
+    display_menu()
+    
+    try:
+        choice = int(input("Please enter a valid number from 1 to 6: "))
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+        continue
+
+    if choice == 1:
+        add_contact(contact_book)
+    elif choice == 2:
+        view_contact(contact_book)
+    elif choice == 3:
+        edit_contact(contact_book)
+    elif choice == 4:
+        delete_contact(contact_book)
+    elif choice == 5:
+        list_all_contacts(contact_book)
+    elif choice == 6:
+        break
+    else:
+        print("Invalid choice. Please try again.")
+
 
