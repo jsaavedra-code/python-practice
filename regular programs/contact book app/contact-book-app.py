@@ -81,6 +81,19 @@ def delete_contact(contact_book):
     else:
         print("Contact not found.")
         
+# The list_all_contacts function displays all the contacts in the contact book.
+# If there are no contacts, it will display a message indicating that no contacts are available.
+def list_all_contacts(contact_book):
+    if not contact_book:
+        print("No contacts available.")
+    else:
+        for name in contact_book:
+            contact = contact_book[name]
 
+            print(f"Name: {name}")
+            print(f"Phone: {contact['phone']}")
+            print(f"Email: {contact['email']}")
+            print(f"Address: {contact['address']}")
+            print()
 
 
